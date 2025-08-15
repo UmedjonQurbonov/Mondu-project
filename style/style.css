@@ -183,3 +183,91 @@ body {
   height: auto;
 }
 
+.cta-section {
+  background-color: #00b6b3;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.cta-section h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.email-form {
+  display: inline-flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.email-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  min-width: 250px;
+}
+
+.email-form button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #001614;
+  padding: 40px 30px;
+  color: white;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.column h4 {
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #aaa;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social-icons span {
+  margin-left: 12px;
+  font-size: 18px;
+}
